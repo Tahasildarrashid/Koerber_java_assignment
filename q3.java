@@ -1,4 +1,3 @@
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 class Account
@@ -87,7 +86,7 @@ class CurrentAccount extends Account
         }
     }
 }
-public class day3 {
+public class q3 {
     public static void main(String[] args)
     {
         Account a = new Account("rashid", 123456, 12350);
