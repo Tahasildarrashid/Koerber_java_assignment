@@ -1,13 +1,21 @@
-package day2;
+package day3;
 
-public class Employee {
-    protected String name;
-    protected int Hours;
-    protected int hourly_rate;
+public class Employee implements Payable{
+    private int id;
+    private String name;
+    private int salary;
 
-    Employee(String name) {
+    Employee(int id, String name, int salary)
+    {
+        this.id = id;
         this.name = name;
-    };
+        this.salary = salary;
+    }
 
+    @Override
+    public double getPayment()
+    {
+        return this.salary;
+    }
 
 }
