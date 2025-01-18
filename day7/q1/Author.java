@@ -1,4 +1,4 @@
-package day7;
+package day7.q1;
 
 import java.lang.annotation.*;
 

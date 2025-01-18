@@ -1,4 +1,6 @@
-package day7;
+package day7.q1;
+
+import day7.q1.Author;
 
 @Author(name = "Johny")
 @Version(number = 1.0f)
